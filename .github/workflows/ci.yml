@@ -29,4 +29,4 @@ jobs:
 
     - name: Run tests
       run: |
-        poetry run pytest --cov=pytracex --cov-report=xml
+        poetry run pytest 
