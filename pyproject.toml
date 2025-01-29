@@ -1,0 +1,25 @@
+[project]
+name = "pytracex"
+
+version = "0.1.0"
+description = "A lightweight, developer-friendly Python library for tracking data and execution flows across microservices, machine learning pipelines, and security-sensitive applications."
+authors = [
+    {name = "Cheikh Mohamed Vadhel"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.115.7,<0.116.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.6.10"
+pytest = "^8.3.4"
+
